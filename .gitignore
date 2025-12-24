@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (too large for GitHub)
+mobile_dataset/data/
+data/
+mobile_dataset.zip
+
+# Model files (too large for GitHub)
+*.pt
+*.pth
+*.pkl
+*.h5
+mobile_dataset/results/*.pt
+mobile_dataset/results/*.json
+mobile_dataset/results/*.pkl
+
+# Results and outputs
+mobile_dataset/results/*.png
+mobile_dataset/results/*.csv
+mobile_dataset/results/diagnostics/
+mobile_dataset/results/.matplotlib/
+results/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
