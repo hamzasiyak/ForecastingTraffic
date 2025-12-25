@@ -13,6 +13,11 @@ env/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# Unused/draft notebooks and scripts
+mobile_dataset/scripts/notebook.ipynb
+mobile_dataset/scripts/feature_engineering copy.py
+pipeline_v2
+
 # Data files (too large for GitHub)
 mobile_dataset/data/
 data/
